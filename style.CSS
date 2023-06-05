@@ -1,0 +1,83 @@
+:root
+{
+    --oren : #ff7b00;
+    --dark-blue : #1b1535;
+    --kuning : #ebd400;
+    --white : #ffffff;
+    --hijau :  #31f00b;
+    --hitam : #000000da;
+}
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'tahoma';
+}
+
+body
+{
+    background-color: var(--dark-blue);
+    color: var(--white)
+}
+
+header
+{
+    text-align: center;
+    background-color: var(--oren);
+    position: fixed;
+    width: 100%;
+    font: 5px;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.title
+{
+    color: var(--hitam);
+    font-weight: bold;
+    font-size: 15pt;
+}
+.input-search
+{
+    width: 35%;
+    padding: 2px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.input-submit
+{
+    margin-left: -15px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 2px;
+    background-color: var(--kuning);
+    color: var(--dark-blue);
+    font-weight: bold;
+    width: 10%;
+    font-size: auto;
+}
+
+nav
+{
+    margin-top: 15px;
+}
+
+nav ul
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav ul li a
+{
+    color: var(--hijau);
+}
+
+nav ul li a:hover
+{
+    border-bottom: 3px solid var(--white);
+}
